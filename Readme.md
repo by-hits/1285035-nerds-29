@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Данил Ковалёв](https://up.htmlacademy.ru/htmlcss/29/user/1285035).
-* Наставник: `Неизвестно`.
+* Наставник: [Артем Шомин](https://htmlacademy.ru/profile/sirnet)
 
 ---
 
