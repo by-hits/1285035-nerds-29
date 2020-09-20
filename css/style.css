@@ -1,0 +1,176 @@
+/* Variables */
+:root {
+  --basic-black: #000000;
+  --basic-special-black: #283136;
+  --basic-white: #ffffff;
+  --basic-red: #FB565A;
+  --basic-green: #00CA74;
+  --basic-yellow: #EFC849;
+  --basic-grey:  #EEEEEE;
+  --special-grey: #888888;
+
+  --red-hover:#E74246;
+  --red-press: #D7373B;
+
+  --green-hover: #00BC6C;
+  --green-press: #00AA62;
+
+  --yellow-hover: #EAB534;
+  --yellow-press: #E5A722;
+
+}
+/* Global */
+body {
+  text-decoration: none;
+  /* min-width: 960px; */
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--basic-special-black);
+  /*text-transform: uppercase;*/
+  background-color: var(--basic-white);
+
+}
+a {
+    text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* Navigation*/
+.main-nav{
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--basic-black);
+    background-color: var(--basic-grey);
+}
+.footer-social a{
+    color: var(--basic-black);
+
+}
+.site-nav,
+.features-list,
+.politics-list,
+.social-list,
+.user-cart{
+    list-style: none;
+}
+.site-nav a,
+.user-сart a{
+  color: var(--basic-black);
+}
+.site-nav a:hover,
+.user-сart a:hover{
+    color: var(--basic-red);
+}
+.site-nav a:focus,
+.user-сart a:focus{
+    opacity: 0.3;
+}
+
+.slogan{
+    text-align: center;
+}
+.visual-slogan{
+    /*text-align: left;*/
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 55px;
+    color: var(--basic-black);
+
+}
+.slogan-item{
+    color: var(--basic-special-black);
+    /*float: left;*/
+}
+.button{
+    font: inherit;
+    line-height: 18px;
+    text-align: center;
+    vertical-align: middle;
+    color: var(--basic-white);
+    background-color: var(--basic-red);
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    outline: none;
+    margin: 10px;
+}
+.button:hover,
+.social-button:hover{
+    color:var(--basic-white);
+    background-color: var(--red-hover);
+}
+.button:focus,
+.social-focus a{
+    color: rgba(255, 255, 255,.7);
+    background-color: var(--red-press);
+}
+
+.features-item{
+    padding: 10px;
+}
+.button-center{
+    background: var(--basic-green);
+}
+.button-center:hover{
+    background-color: var(--green-hover);
+}
+.button-center:focus{
+    background-color: var(--green-press);
+}
+.button-right{
+    background-color: var(--basic-yellow);
+}
+.button-right:hover{
+    background-color: var(--yellow-hover);
+}
+.button-right:focus{
+    background-color: var(--yellow-press);
+}
+.policy h2{
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 45px;
+}
+.policy-order,
+.politics-accurancy{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.politics-item h2{
+    font-size: 45px;
+    line-height: 64px;
+}
+/*.manufacturer-content-center:hover{
+    image-resolution:
+}*/
+.footer-location-address{
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--basic-black);
+}
+.footer-copiryght h2{
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: bold;
+}
+.footer-span{
+    font-size: 16px;
+    line-height: 22px;
+}
+.social-button {
+  background-color: var(--basic-grey);
+
+}
+
+/*.social-button:hover{
+    color: var(--red-hover);
+}
+.social-button:focus{
+
+}*/

@@ -1,126 +1,157 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="css\normalize.css" rel="stylesheet">
+    <link href="css\style.css" rel="stylesheet">
   </head>
-<body>
-<header>
-    <nav>
-        <a href="index.html">
-            <img src="img/logo/nerds-logo.svg" alt="Логотип «Nerds»">
-        </a>
-        <ul>
-            <li><a href="#">СТУДИЯ</a></li>
-            <li><a href="#">КЛИЕНТЫ</a></li>
-            <li><a href="catalog.html">МАГАЗИН</a></li>
-            <li><a href="#">КОНТАКТЫ</a></li>
-        </ul>
-        <a href="#">КОРЗИНА</a>
+<body class="page-body">
+<header class="main-header">
+        <nav class="main-nav">
+            <div class="main-navigation-wrapper">
+              <div class="container">
+                <a class="main-header-logo" href="index.html">
+                    <img src="img/logo/nerds-logo.svg" alt="Логотип «Nerds»">
+                </a>
+            <ul class="site-nav">
+                <li><a href="#">СТУДИЯ</a></li>
+                <li><a href="#">КЛИЕНТЫ</a></li>
+                <li><a href="catalog.html">МАГАЗИН</a></li>
+                <li><a href="#">КОНТАКТЫ</a></li>
+            </ul>
+            <div class="user-сart">
+                <ul class="site-nav">
+                    <li>
+                        <a class="basket-link" href="#">КОРЗИНА</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </div>
     </nav>
 </header>
-<main>
-    <h1>Дизайн-студия «Nerds»</h1>
-    <section>
-        <h2>Долго, дорого,<br>скрупулезно.</h2>
-        <p>Математически выверенный дизайн<br> для вашего сайта или мобильного приложения.</p>
-        <a href="#">УЗНАТЬ БОЛЬШЕ</a>
-        <figure>
+<main class="wrap">
+    <h1 class="visual-hidden">Дизайн-студия «Nerds»</h1>
+    <section class="slogan">
+        <h2 class="visual-slogan">Долго, дорого,<br>скрупулезно.</h2>
+        <p class="slogan-item">Математически выверенный дизайн<br> для вашего сайта или мобильного приложения.</p>
+        <a  class="button" href="#">УЗНАТЬ БОЛЬШЕ</a>
+        <figure class="slider">
             <img src="img/nerds-index-slide1 1.png" alt="Смартфоны в невесомости">
         </figure>
     </section>
-    <section>
+    <section class="features">
         <h2>Услуги-преимущества</h2>
-        <ul>
-            <li>
+        <ul class="features-list">
+            <li class="features-item">
+                <img src="img\illustration-1 1.jpg" alt="Ноутбук на красном фоне">
                 <h3>ВЕБ-САЙТЫ</h3>
+
                 <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-                <a href="#">Заказать</a>
+                <a class="button button-left"href="#">Заказать</a>
             </li>
-            <li>
+            <li class="features-item">
+                <img src="img\illustration-2 1.png" alt="2 телефон на зелёном фоне">
                 <h3>ПРИЛОЖЕНИЯ</h3>
                 <p>Покорите топ-10 приложений в AppStore и Google Play</p>
-                <a href="#">Заказать</a>
+                <a class="button button-center"href="#">Заказать</a>
             </li>
-            <li>
+            <li class="features-item">
+                <img src="img\illustration-3 1.png" alt="Телевизор на жёлтом фоне">
                 <h3>ПРЕЗЕНТАЦИЯ</h3>
                 <p>Вы даже не подозреваете, насколько вы изумительны!<p>
-                <a href="#">Заказать</a>
+                <a class="button button-right"href="#">Заказать</a>
             </li>
         </ul>
     </section>
-    <section>
+    <section class="policy">
         <h2>Мы — маленькая, но гордая<br>дизайн-студия из Краснодара.</h2>
-        <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет<br>превыше креатива. Работаем не покладая рук, как роботы.</p>
-        <p><b>Выполняем заказы на разработку:</b></p>
-        <ul>
-            <li>
+        <p class="policy-rules">Исповедуем принципы минимализма и чистоты. Ставим математический расчет<br>превыше креатива. Работаем не покладая рук, как роботы.</p>
+        <p class="policy-order"><b>Выполняем заказы на разработку:</b></p>
+        <ul class="policy-list">
+            <li class="policy-item">
                 <p>	Веб-сайтов любой сложности</p>
             </li>
-            <li>
+            <li class="policy-item">
                 <p>Мобильных приложений для iOS и Android</p>
             </li>
-            <li>
+            <li class="policy-item">
                 <p>Слайдшоу и видео для корпоративных презентаций</p>
             </li>
         </ul>
     </section>
-    <section>
+    <section class="politics">
         <img src="img\nerds-illustration 1.png" alt="Логотип с конфетти «Nerds»">
-        <p><b>с 2004 года Любим точность во всем:</b></p>
-        <ul>
-            <li>
+        <p class="politics-accurancy"><b>с 2004 года Любим точность во всем:</b></p>
+        <ul class="politics-list">
+            <li class="politics-item">
                 <h2>146<sup>%</sup></h2>
-                <span>Уровень<br>самоотдачи</span>
+                <span class="politics-span">Уровень<br>самоотдачи</span>
             </li>
-            <li>
+            <li class="politics-item">
                 <h2>100<sup>%</sup></h2>
-                <span>Соблюдение<br>сроков</span>
+                <span class="politics-span">Соблюдение<br>сроков</span>
             </li>
-            <li>
+            <li class="politics-item">
                 <h2>50<sup>%</sup></h2>
-                <span>Минимальная<br>предоплата</span>
+                <span class="politics-span">Минимальная<br>предоплата</span>
             </li>
         </ul>
     </section>
-    <section>
+    <section class="manufacturer">
             <h2>Производители</h2>
-
-                    <a href="#">
+                    <a class="manufacturer-content" href="#">
                         <img src="img\logo\Group 5.svg" alt="Лого Html Academy">
                     </a>
-                    <a href="#">
+                    <a class="manufacturer-content-center" href="#">
                         <img src="img\logo\logo-2 1.svg" alt="Лого Барбершопа «Borodinski»">
                     </a>
-                    <a href="#">
+                    <a class="manufacturer-content" href="#">
                         <img src="img\logo\logo-3 1.svg" alt="Лого Pink">
                     </a>
-                    <a href="#">
+                    <a class="manufacturer-content" href="#">
                         <img src="img\logo\logo-4 1.svg" alt="Лого Mishka">
                     </a>
-
     </section>
  </main>
- <footer>
-    <section>
+ <footer class="page-footer">
+    <section class="footer-location">
         <h2>Местополжения «Nerds»</h2>
-        <p><b>NЁRDS DESIGN STUDIO</b></p>
-        <p>191186, Санкт-Петербург, <br>ул. Б. Конюшенная, д. 19/8<br><br>тел. +7 (812) 275-75-75</p>
-        <button type="button">Напишите нам</button>
-        <img src="img\map 1.png" alt="Приближенная карта местоположения">
-        <img src="img\map-marker 1.png" alt="Отметка местоположения">
+        <p class="footer-location-address"><b>NЁRDS DESIGN STUDIO</b></p>
+        <p class="footer-location-address">191186, Санкт-Петербург, <br>ул. Б. Конюшенная, д. 19/8<br><br>тел. +7 (812) 275-75-75</p>
+        <button class="button" type="button">Напишите нам</button>
+        <img class="footer-location-map" src="img\map 1.png" alt="Приближенная карта местоположения">
+        <img class="footer-location-point" src="img\map-marker 1.png" alt="Отметка местоположения">
     </section>
-    <section>
+    <section class="footer-social">
         <h2>Контакты в соц.сетях</h2>
-        <ul>
-            <li><a href="#">В контакте</a></li>
-            <li><a href="#">Фейсбук</a></li>
-            <li><a href="#">Инстаграм</a></li>
+        <ul class="social-list">
+            <li>
+                <a class="button social-button" href="#">
+                    <span class="visually-hidden">В контакте</span>
+                        <svg width="27" height="16" viewBox="0 0 128 76"><path d="M125,5.15c.89-3,0-5.15-4.23-5.15h-14a6,6,0,0,0-6.09,4S93.59,21.31,83.5,32.59c-3.26,3.26-4.74,4.3-6.52,4.3-.89,0-2.18-1-2.18-4V5.15c0-3.56-1-5.15-4-5.15h-22a3.37,3.37,0,0,0-3.56,3.22c0,3.37,5,4.15,5.56,13.64V37.48c0,4.52-.82,5.34-2.6,5.34-4.74,0-16.29-17.43-23.13-37.38C23.72,1.57,22.38,0,18.8,0H4.8C.8,0,0,1.88,0,4c0,3.71,4.75,22.1,22.1,46.42C33.67,67,50,76,64.8,76c8.9,0,10-2,10-5.45V58c0-4,.84-4.8,3.66-4.8,2.08,0,5.64,1,13.94,9C101.9,71.74,103.46,76,108.8,76h14c4,0,6-2,4.85-6s-5.8-9.64-11.81-16.4c-3.27-3.86-8.16-8-9.64-10.09-2.08-2.67-1.49-3.86,0-6.23,0,0,17-24,18.83-32.18Z" fill="#fff"/></svg>
+                </a>
+            </li>
+            <li>
+                <a class="button social-button" href="#">
+                    <span class="visually-hidden">Фейсбук</span>
+                <svg width="19" height="22" viewBox="0 0 10.15 21.74"><path d="M3.34 1.12A4.77 4.77 0 0 1 6.53 0h3.61v3.81H7.81a1.07 1.07 0 0 0-1.09.83v2.55h3.42c-.08 1.23-.24 2.45-.41 3.67h-3v10.87H2.21V10.86H0V7.21h2.19V3.66a3.83 3.83 0 0 1 1.15-2.54z" fill="#fff"/></svg>
+
+                </a>
+            </li>
+            <li>
+                <a class="button social-button" href="#">
+                    <span class="visually-hidden">Инстаграм</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20"><path d="M18 0H2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-8 6a4 4 0 1 1-4 4 4 4 0 0 1 4-4zM2.5 18a.47.47 0 0 1-.5-.5V9h2.1a3.4 3.4 0 0 0-.1 1 6 6 0 1 0 12 0 3.4 3.4 0 0 0-.1-1H18v8.5a.47.47 0 0 1-.5.5zM18 4.5a.47.47 0 0 1-.5.5h-2a.47.47 0 0 1-.5-.5v-2a.47.47 0 0 1 .5-.5h2a.47.47 0 0 1 .5.5z" fill="#fff"/></svg>
+                </a>
+            </li>
         </ul>
     </section>
-    <section>
+    <section class="footer-copiryght">
         <h2>Давайте дружить, это выгодно!</h2>
-        <span>Скидка 10% для друзей из социальных сетей.</span>
+        <span class="footer-span">Скидка 10% для друзей из социальных сетей.</span>
     </section>
  </footer>
 </body>
