@@ -1,149 +1,178 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="css\normalize.css" rel="stylesheet">
+    <link href="css\style.css" rel="stylesheet">
   </head>
-<body>
-<header>
-    <nav>
-        <a href="index.html">
-            <img src="img/logo/nerds-logo.svg" alt="Логотип «Nerds»">
-        </a>
-        <ul>
-            <li><a href="#">СТУДИЯ</a></li>
-            <li><a href="#">КЛИЕНТЫ</a></li>
-            <li><a href="catalog.html">МАГАЗИН</a></li>
-            <li><a href="#">КОНТАКТЫ</a></li>
-        </ul>
-        <a href="#">КОРЗИНА</a>
-        <h1>Магазин готовых шаблонов</h1>
-    </nav>
-</header>
-<main>
-    <section>
+<body class="page-body">
+    <header class="main-header">
+                <nav class="main-nav">
+                    <div class="main-navigation-wrapper">
+                      <div class="container">
+                        <a class="main-header-logo" href="index.html">
+                            <img src="img/logo/nerds-logo.svg" alt="Логотип «Nerds»">
+                        </a>
+                    <ul class="site-nav">
+                        <li><a href="#">СТУДИЯ</a></li>
+                        <li><a href="#">КЛИЕНТЫ</a></li>
+                        <li><a href="catalog.html">МАГАЗИН</a></li>
+                        <li><a href="#">КОНТАКТЫ</a></li>
+                    </ul>
+                    <div class="user-сart">
+                        <ul class="site-nav">
+                            <li>
+                                <a class="basket-link" href="#">КОРЗИНА</a>
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+                <h1>Магазин готовых шаблонов</h1>
+            </nav>
+
+    </header>
+<main class="wrap">
+    <section class="wrap-cost">
         <h2>СТОМОИМОСТЬ:</h2>
         <!-- Форма фильтра стоимости -->
     </section>
-    <section>
+    <section class="wrap-sorting">
         <h2>СОРТИРОВКА:</h2>
-        <ul>
-            <li>ПО ЦЕНЕ</li>
-            <li>ПО ТИПУ</li>
-            <li>ПО НАЗВАНИЮ</li>
+        <ul class="sorting-list">
+            <li class="sorting-item">ПО ЦЕНЕ</li>
+            <li class="sorting-item">ПО ТИПУ</li>
+            <li class="sorting-item">ПО НАЗВАНИЮ</li>
         </ul>
     </section>
-    <section>
+    <section class="wrap-grid">
         <h2>СЕТКА:</h2>
-        <ul>
-            <li>Адаптивна</li>
-            <li>Фиксированная</li>
-            <li>Резиновая</li>
+        <ul class="grid-list">
+            <li class="grid-item">Адаптивна</li>
+            <li class="grid-item">Фиксированная</li>
+            <li class="grid-item">Резиновая</li>
         </ul>
     </section>
-    <section>
+    <section class="wrap-feature">
         <h2>ОСОБЕННОСТИ:</h2>
-        <ul>
-            <li>Слайдер</li>
-            <li>Блок преимуществ</li>
-            <li>Новости</li>
-            <li>Галерея</li>
-            <li>Корзина</li>
+        <ul class="feature-list">
+            <li class="feature-item">Слайдер</li>
+            <li class="feature-item">Блок преимуществ</li>
+            <li class="feature-item">Новости</li>
+            <li class="feature-item">Галерея</li>
+            <li class="feature-item">Корзина</li>
         </ul>
-        <a href="#">Показать</a>
+        <a class="button-more" href="#">Показать</a>
     </section>
-    <section>
-        <ul>
-            <li>
+    <section class="wrap-layout">
+        <ul class="layout-list">
+            <li class="layout-item">
                 <a href="#">
                     <h3>SEDONA</h3>
                     <p>
                         <img src="img\layout\img-sedona 1.png" alt="Сайты Седона">
                     </p>
                 </a>
-                <p>
+                <p >
                     Информационный сайт для туристов
-                    <button type="button">9 900₽</button>
+                    <button class="button" type="button">9 900₽</button>
                 </p>
             </li>
-            <li>
+            <li class="layout-item">
                 <a href="#">
                     <h3>PINK</h3>
-                    <p>
+                    <p class="layout-inform">
                         <img src="img\layout\img-pink 1.png" alt="Сайты PINK">
                     </p>
                 </a>
             </li>
-            <li>
+            <li class="layout-item">
                 <a href="#">
                     <h3>BORODINSKI</h3>
-                    <p>
+                    <p class="layout-inform">
                         <img src="img\layout\img-barbershop 1.png" alt="Сайты Барбершоп Borodinski">
                     </p>
                 </a>
             </li>
-            <li>
+            <li class="layout-item">
                 <a href="#">
                     <h3>MISHKA</h3>
-                    <p>
+                    <p class="layout-inform">
                         <img src="img\layout\img-mishka 1.png" alt="Сайты Mishka">
                     </p>
                 </a>
             </li>
-            <li>
+            <li class="layout-item">
                 <a href="#">
                     <h3>A+</h3>
-                    <p>
+                    <p class="layout-inform">
                         <img src="img\layout\img-aplus 1.png" alt="Сайты A+">
                     </p>
                 </a>
             </li>
-            <li>
+            <li class="layout-item">
                 <a href="#">
                     <h3>KVAST</h3>
-                    <p>
+                    <p class="layout-inform">
                         <img src="img\layout\img-kvast 1.png" alt="Сайты Kvast">
                     </p>
                 </a>
             </li>
         </ul>
-        <ul>
-            <li>
+        <ul class="page-number-button">
+            <li class="page-number-list">
                 <a >1</a>
             </li>
-            <li>
+            <li class="page-number-list">
                 <a href="#">2</a>
             </li>
-            <li>
+            <li class="page-number-list">
                 <a href="#">3</a>
             </li>
-            <li>
+            <li class="page-number-list">
                 <a href="#">4</a>
             </li>
         </ul>
-</section>
-
+    </section>
 </main>
-<footer>
-   <section>
+<footer class="page-footer">
+   <section class="footer-location">
        <h2>Местополжения «Nerds»</h2>
-       <p><b>NЁRDS DESIGN STUDIO</b></p>
-       <p>191186, Санкт-Петербург, <br>ул. Б. Конюшенная, д. 19/8<br><br>тел. +7 (812) 275-75-75</p>
-       <button type="button">Напишите нам</button>
-       <img src="img\map 1.png" alt="Приближенная карта местоположения">
-       <img src="img\map-marker 1.png" alt="Отметка местоположения">
+       <p class="footer-location-address"><b>NЁRDS DESIGN STUDIO</b></p>
+       <p class="footer-location-address">191186, Санкт-Петербург, <br>ул. Б. Конюшенная, д. 19/8<br><br>тел. +7 (812) 275-75-75</p>
+       <button class="button" type="button">Напишите нам</button>
+       <img class="footer-location-map" src="img\map 1.png" alt="Приближенная карта местоположения">
+       <img class="footer-location-point" src="img\map-marker 1.png" alt="Отметка местоположения">
    </section>
-   <section>
+   <section class="footer-social">
        <h2>Контакты в соц.сетях</h2>
-       <ul>
-           <li><a href="#">В контакте</a></li>
-           <li><a href="#">Фейсбук</a></li>
-           <li><a href="#">Инстаграм</a></li>
+       <ul class="social-list">
+           <li>
+               <a class="button social-button" href="#">
+                   <span class="visually-hidden">В контакте</span>
+                       <svg width="27" height="16" viewBox="0 0 128 76"><path d="M125,5.15c.89-3,0-5.15-4.23-5.15h-14a6,6,0,0,0-6.09,4S93.59,21.31,83.5,32.59c-3.26,3.26-4.74,4.3-6.52,4.3-.89,0-2.18-1-2.18-4V5.15c0-3.56-1-5.15-4-5.15h-22a3.37,3.37,0,0,0-3.56,3.22c0,3.37,5,4.15,5.56,13.64V37.48c0,4.52-.82,5.34-2.6,5.34-4.74,0-16.29-17.43-23.13-37.38C23.72,1.57,22.38,0,18.8,0H4.8C.8,0,0,1.88,0,4c0,3.71,4.75,22.1,22.1,46.42C33.67,67,50,76,64.8,76c8.9,0,10-2,10-5.45V58c0-4,.84-4.8,3.66-4.8,2.08,0,5.64,1,13.94,9C101.9,71.74,103.46,76,108.8,76h14c4,0,6-2,4.85-6s-5.8-9.64-11.81-16.4c-3.27-3.86-8.16-8-9.64-10.09-2.08-2.67-1.49-3.86,0-6.23,0,0,17-24,18.83-32.18Z" fill="#fff"/></svg>
+               </a>
+           </li>
+           <li>
+               <a class="button social-button" href="#">
+                   <span class="visually-hidden">Фейсбук</span>
+               <svg width="19" height="22" viewBox="0 0 10.15 21.74"><path d="M3.34 1.12A4.77 4.77 0 0 1 6.53 0h3.61v3.81H7.81a1.07 1.07 0 0 0-1.09.83v2.55h3.42c-.08 1.23-.24 2.45-.41 3.67h-3v10.87H2.21V10.86H0V7.21h2.19V3.66a3.83 3.83 0 0 1 1.15-2.54z" fill="#fff"/></svg>
+
+               </a>
+           </li>
+           <li>
+               <a class="button social-button" href="#">
+                   <span class="visually-hidden">Инстаграм</span>
+                       <svg width="20" height="20" viewBox="0 0 20 20"><path d="M18 0H2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-8 6a4 4 0 1 1-4 4 4 4 0 0 1 4-4zM2.5 18a.47.47 0 0 1-.5-.5V9h2.1a3.4 3.4 0 0 0-.1 1 6 6 0 1 0 12 0 3.4 3.4 0 0 0-.1-1H18v8.5a.47.47 0 0 1-.5.5zM18 4.5a.47.47 0 0 1-.5.5h-2a.47.47 0 0 1-.5-.5v-2a.47.47 0 0 1 .5-.5h2a.47.47 0 0 1 .5.5z" fill="#fff"/></svg>
+               </a>
+           </li>
        </ul>
    </section>
-   <section>
+   <section class="footer-copiryght">
        <h2>Давайте дружить, это выгодно!</h2>
-       <span>Скидка 10% для друзей из социальных сетей.</span>
+       <span class="footer-span">Скидка 10% для друзей из социальных сетей.</span>
    </section>
 </footer>
 </body>

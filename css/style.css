@@ -6,6 +6,7 @@
   --basic-red: #FB565A;
   --basic-green: #00CA74;
   --basic-yellow: #EFC849;
+
   --basic-grey:  #EEEEEE;
   --special-grey: #888888;
 
@@ -18,6 +19,9 @@
   --yellow-hover: #EAB534;
   --yellow-press: #E5A722;
 
+  --grey-hover: #DFDFDF;
+  --grey-focus: #D5D5D5;
+  --grey-active: rgba(0, 0, 0, 0.0001);
 }
 /* Global */
 body {
@@ -25,7 +29,7 @@ body {
   /* min-width: 960px; */
   margin: 0;
   padding: 0;
-  font-family: "Roboto";
+  font-family: "Roboto", Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -52,11 +56,17 @@ img {
     color: var(--basic-black);
 
 }
-.site-nav,
+/*.site-nav,
 .features-list,
 .politics-list,
 .social-list,
-.user-cart{
+.user-cart,
+.sorting-list,
+.grid-list,
+.feature-list,
+.layout-list,
+.page-number-list*/
+ul{
     list-style: none;
 }
 .site-nav a,
@@ -87,7 +97,8 @@ img {
     color: var(--basic-special-black);
     /*float: left;*/
 }
-.button{
+.button,
+.button-layout{
     font: inherit;
     line-height: 18px;
     text-align: center;
@@ -113,6 +124,10 @@ img {
 
 .features-item{
     padding: 10px;
+}
+.features h3{
+    font-size: 24px;
+    line-height: 30px;
 }
 .button-center{
     background: var(--basic-green);
@@ -174,3 +189,50 @@ img {
 .social-button:focus{
 
 }*/
+/* Catlog*/
+
+.main-header h1{
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 55px;
+    text-align: center;
+}
+.wrap-grid,
+.wrap-sorting,
+.wrap-layout,
+.wrap-cost,
+.wrap-feature{
+    color: var(--basic-black);
+    font-size: 18px;
+    line-height: 30px;
+}
+.button-more{
+    padding: 10px;
+    color: var(--basic-black);
+    background-color: var(--basic-grey);
+}
+.layout-list h3{
+    position: inherit;
+    padding: 10px;
+    color: var(--basic-black);
+    /*background-color: var(--basic-grey);*/
+}
+.page-number-button{
+    list-style: none;
+}
+.page-number-button a {
+    border-radius: 3px;
+    padding: 5px;
+    color: var(--basic-black);
+    background-color: var(--basic-grey);
+}
+.page-number-button a:hover{
+    background-color: var(--grey-hover);
+}
+.page-number-button a:focus{
+    opacity: 0.3;
+    background-color: var(--grey-focus);
+}
+.page-number-button a:active{
+    background-color: var(--grey-active);
+}
