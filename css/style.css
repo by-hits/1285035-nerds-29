@@ -97,8 +97,7 @@ ul{
     color: var(--basic-special-black);
     /*float: left;*/
 }
-.button,
-.button-layout{
+.button{
     font: inherit;
     line-height: 18px;
     text-align: center;
@@ -235,4 +234,11 @@ ul{
 }
 .page-number-button a:active{
     background-color: var(--grey-active);
+}
+.button-layout h3:hover{
+    color: var(--basic-red);
+}
+.button-layout h3:focus{
+    color: var(--basic-black);
+    opacity: 0.3;
 }
