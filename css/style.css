@@ -132,14 +132,25 @@ img {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .wrap-catalog,
-.social-list{
+.social-list,
+.sorting-list{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+.wrap-layout{
+    margin-left: 80px;
+}
+
+.wrap-sorting{
+    display: grid;
+    grid-template-columns: max-content max-content;
+    margin-left: 50px;
 }
 .layout-list{
     display: grid;
     grid-template-columns: max-content max-content;
-    margin-top: 50px;
+    margin-top: 0;
+
 }
 .page-number-button{
     display: grid;
