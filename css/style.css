@@ -111,7 +111,7 @@ img {
 .slogan-wrap{
     display: grid;
     grid-template-columns: : 1fr 1fr;
-
+    justify-content: space-between;
 }
 .index-columns{
     display: grid;
@@ -131,6 +131,20 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+.wrap-catalog,
+.social-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.layout-list{
+    display: grid;
+    grid-template-columns: max-content max-content;
+    margin-top: 50px;
+}
+.page-number-button{
+    display: grid;
+    grid-template-columns: min-content min-content min-content min-content;
+}
 .page-footer{
     width: 1160px;
     margin: 0 auto;
@@ -141,10 +155,7 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.social-list{
-    display: grid;
-    grid-template-columns:  1fr 1fr 1fr;
-}
+
 .manufacturer h2,
 .features h2,
 .wrap h1{
