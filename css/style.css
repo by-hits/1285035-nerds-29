@@ -45,16 +45,116 @@ img {
   max-width: 100%;
   height: auto;
 }
+/* GRID*/
+.page{
+    height: 100%;
+}
+.page-body{
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+    align-content: start;
+}
 /* Navigation*/
 .main-nav{
+    display: grid;
     font-size: 16px;
     line-height: 30px;
     color: var(--basic-black);
     background-color: var(--basic-grey);
 }
+.main-nav-bar{
+    background-color: var(--basic-grey);
+}
+.main-navigation-wrapper{
+    display: grid;
+    grid-template-columns: max-content 1fr max-content;
+    width: 990px;
+    margin: 0 auto;
+    margin-top: 48px;
+    padding: 0 10px;
+    justify-content: space-between;
+}
+.user-сart{
+    margin: auto;
+    padding: auto;
+}
+
+.site-nav{
+    display: grid;
+    grid-template-columns: min-content min-content min-content min-content;
+    column-gap: 20px;
+    justify-content: center;
+}
+.wrap{
+    width: 1160px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.slogan{
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    margin-bottom: 80px;
+}
+.features{
+    margin-top: 80px;
+}
+.features-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+.slogan-wrap{
+    display: grid;
+    grid-template-columns: : 1fr 1fr;
+
+}
+.index-columns{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 100px;
+}
+.politics-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+
+}
+.politics p{
+    text-align: center;
+}
+.manufacturer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.page-footer{
+    width: 1160px;
+    margin: 0 auto;
+    padding: 0 10px;
+    margin-top: 80px;
+}
+.container-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.social-list{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+}
+.manufacturer h2,
+.features h2,
+.wrap h1{
+    display: none;
+}
 .footer-social a{
     color: var(--basic-black);
-
+}
+.footer-copiryght{
+    margin-bottom: 74px;
 }
 /*.site-nav,
 .features-list,
@@ -108,7 +208,7 @@ ul{
     border-radius: 3px;
     padding: 10px;
     outline: none;
-    margin: 10px;
+
 }
 .button:hover,
 .social-button:hover{
@@ -160,9 +260,12 @@ ul{
     font-size: 45px;
     line-height: 64px;
 }
-/*.manufacturer-content-center:hover{
-    image-resolution:
-}*/
+.manufacturer-content{
+    opacity: 0.3;
+}
+.manufacturer-content:hover{
+    opacity: inherit;
+}
 .footer-location-address{
     font-size: 16px;
     line-height: 30px;
